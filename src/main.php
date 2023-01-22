@@ -12,7 +12,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]==true){
         <title>Code-Hub</title>
     </head>
     <body>
-        <h1>welcome <?php echo $_SESSION["uname"]; ?> </h1>
+        <h1>Hello <?php echo $_SESSION["uname"]; ?>,Welcome </h1>
         <a href="Logout.php">Logout</a>
     </body>
     </html>
